@@ -1,0 +1,169 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title><%= @site.config[:company] %> - <%= @item[:title] %></title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="<%= @site.config[:author] %>" />
+        <meta name="description" content="<%= @item[:description] %>" />
+        <meta name="keywords" content="<%= @item[:keywords] %>" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by <%= @site.config[:author] %>" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+    
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) <%= @item[:level] %>styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="<%= @item[:level] %>styles/main.css" />
+        <!-- endbuild -->
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js <%= @item[:level] %>scripts/vendor/modernizr.js -->
+        <script src="<%= @item[:level] %>bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="<%= @item[:level] %>favicon.ico">
+        <!-- 32x32 -->
+        <link rel="shortcut icon" href="<%= @item[:level] %>images/favicon.png">
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @item[:level] %>images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= @item[:level] %>images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= @item[:level] %>images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="<%= @item[:level] %>images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="<%= @item[:level] %>images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="<%= @item[:level] %>images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><%= @site.config[:company] %></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+             
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <%= yield %>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1">
+                </div>
+                <!-- <div class="col-xs-6"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-ATB.jpg" alt="ATB Logo" /></a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="row" style="text-align: center;"> -->
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h3 id="contact" class="no-top-margin reduce-bottom-margin-to-10">Contact</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                          <h4 class="no-top-margin reduce-bottom-margin-to-10">
+                          <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span>
+                          </h4>
+                        </div>
+                    </div>
+                    <div class="row add-bottom-padding">
+                        <div class="col-xs-12">
+                          <span class="adr">
+                            <span class="locality"><strong><%= @site.config[:city] %></strong></span>, <span class="country-name"><strong><%= @site.config[:country] %></strong></span>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- build:js <%= @item[:level] %>scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="<%= @item[:level] %>bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js <%= @item[:level] %>scripts/main.js -->
+        <script src="<%= @item[:level] %>scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js <%= @item[:level] %>scripts/plugins.js -->
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

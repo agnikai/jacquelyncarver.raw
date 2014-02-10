@@ -1,0 +1,297 @@
+{:	data{I"/:ET{:default{	:	lastI"N!<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Jacquelyn Carver - Home</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Jacquelyn Carver" />
+        <meta name="description" content="Building beautiful responsive websites!" />
+        <meta name="keywords" content="jacquelyn carver, web developer" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by Jacquelyn Carver" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+    
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <!-- endbuild -->
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- 32x32 -->
+        <link rel="shortcut icon" href="images/favicon.png">
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jacquelyn Carver</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+             
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row"> 
+	<div class="col-sm-4">
+		<img src="images/autumn.jpg" class="img-responsive"/>
+	</div>
+	<div class="col-sm-8">
+		<h2> Welcome to my Site!</h2>
+		<p>I'm a self taught web developer making beautiful responsive web experiences. Please visit my site again soon for more updates. I will be posting projects in my portfolio as they are completed. Also check out youtube for some funny videos on celebrities reading mean tweets!</p>
+	</div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1">
+                </div>
+                <!-- <div class="col-xs-6"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="images/logo-ATB.jpg" alt="ATB Logo" /></a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="row" style="text-align: center;"> -->
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h3 id="contact" class="no-top-margin reduce-bottom-margin-to-10">Contact</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                          <h4 class="no-top-margin reduce-bottom-margin-to-10">
+                          <span class="email"><a href="mailto:jacquelyn905@gmail.com?subject=Hello There">jacquelyn905@gmail.com</a></span>
+                          </h4>
+                        </div>
+                    </div>
+                    <div class="row add-bottom-padding">
+                        <div class="col-xs-12">
+                          <span class="adr">
+                            <span class="locality"><strong>Jersey City, New Jersey</strong></span>, <span class="country-name"><strong>United States</strong></span>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T:rawI"Ì<div class="row"> 
+	<div class="col-sm-4">
+		<img src="images/autumn.jpg" class="img-responsive"/>
+	</div>
+	<div class="col-sm-8">
+		<h2> Welcome to my Site!</h2>
+		<p>I'm a self taught web developer making beautiful responsive web experiences. Please visit my site again soon for more updates. I will be posting projects in my portfolio as they are completed. Also check out youtube for some funny videos on celebrities reading mean tweets!</p>
+	</div>
+</div>;T:preI"Ì<div class="row"> 
+	<div class="col-sm-4">
+		<img src="images/autumn.jpg" class="img-responsive"/>
+	</div>
+	<div class="col-sm-8">
+		<h2> Welcome to my Site!</h2>
+		<p>I'm a self taught web developer making beautiful responsive web experiences. Please visit my site again soon for more updates. I will be posting projects in my portfolio as they are completed. Also check out youtube for some funny videos on celebrities reading mean tweets!</p>
+	</div>
+</div>;T:	post@
+I"/stylesheet/;T{;{;I"î* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 40px;
+  left: 280px;
+
+  width: 500px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+  font-size: 15px;
+
+  line-height: 20px;
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#sidebar {
+  position: absolute;
+
+  top: 40px;
+  left: 20px;
+  width: 200px;
+
+  padding: 20px 20px 0 0;
+
+  border-right: 1px solid #ccc;
+
+  text-align: right;
+}
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
+;T;	@;
+@:versioni
